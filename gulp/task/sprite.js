@@ -17,7 +17,7 @@ var config = {
 }
 
 gulp.task('beginClean', function() {
-   del(['./app/temp/sprite' , './app/assets/images/sprites']);
+ return del(['./app/temp/sprite' , './app/assets/images/sprites']);
 });
 
 gulp.task('createSprite', ['beginClean'], function() {
