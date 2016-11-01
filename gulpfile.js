@@ -4,3 +4,4 @@
  require ('./gulp/task/sprite');
  require ('./gulp/task/scripts');
  require ('./gulp/task/modernizr');
+ require ('./gulp/task/build');
